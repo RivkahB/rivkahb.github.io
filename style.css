@@ -96,7 +96,12 @@ li {
     text-align: justify;
     border-top:double;
     padding-top: 8px;
-    
+}
+ul {
+    list-style-image: url(quill.png);
+}
+ol {
+    list-style:lower-roman
 }
 .bullet-no-border {
     border-top:hidden;
