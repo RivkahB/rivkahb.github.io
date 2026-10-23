@@ -1,0 +1,219 @@
+* {
+    font-family: "IM Fell English", "Courier New", Serif;
+}
+body {
+    background-image: url(paper-1074131_1280.jpg);
+    background-size: auto
+}
+
+#logo {
+    width: 131px;
+}
+header {
+    position:absolute;
+    left: 434px;
+    top: 1px;
+    z-index: 10;
+}
+.book-cover {
+        width: 200px; 
+        height: 200px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin: 22px;
+        background-color:#ECDCC9;
+        padding: 5px;
+        box-shadow: 0 12px 27px rgba(68, 25, 51, 0.51), 0 6px 9px rgba(14, 3, 10, 0.56);
+
+    }
+.book-cover-container {
+    max-width: 550px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.book-cover-large {
+    height: 400px;
+    float: right;
+    margin-left: 34px;
+    margin-right: 134px;
+    margin-top: 34px;
+    margin-bottom: 8px;
+    border: double;
+    background-color:#ECDCC9;
+    padding: 5px;
+}
+a:hover .book-cover {
+    border: double;
+    border-color: black;
+    border-width: 3px;
+}
+.about {
+    padding-top: 25px;
+}
+#quotes {
+    text-align: justify;
+    font-style:italic;
+}
+.journal-headers {
+    border-top: double;
+    padding-top: 38px;
+    color:#4d243d;
+    text-align: center;
+}
+.journal-background {
+    background-color:#d0a98f;
+    border-left: solid;
+    border-right: solid;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    padding-bottom: 25px;
+    margin-bottom: 60px;
+    margin-left: 100px;
+    margin-right: 100px;
+    box-shadow: 0 12px 27px rgba(68, 25, 51, 0.51), 0 6px 9px rgba(14, 3, 10, 0.56);
+}
+#resources-background {
+   background-color:#d0a98f;
+    border-left: solid;
+    border-right: solid;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    padding-bottom: 25px;
+    margin-bottom: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 40px;
+    
+    box-shadow: 0 12px 27px rgba(68, 25, 51, 0.51), 0 6px 9px rgba(14, 3, 10, 0.56);  
+}
+li {
+   margin-top: 14px; 
+    margin-right: 27px;
+    text-align: justify;
+    border-top:double;
+    padding-top: 8px;
+    
+}
+.bullet-no-border {
+    border-top:hidden;
+    margin-top: 4px;
+    text-align: left;
+}
+.thoughts-bullets {
+    margin: 7px;
+}
+h3 {
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 25px;
+    text-decoration: overline;
+}
+h2 {
+    margin-bottom: -8px;
+    margin-top: 40px;
+    padding-top: 10px;
+    text-align: center;
+    border-top: double;
+    border-color: black;
+    font-size: 2em;
+    color:#4d243d;
+}
+h4 {
+    margin-top: -18px;
+    text-align: center;
+}
+h1 {
+    margin-top: 14px;
+    margin-left: 15px;
+    border-bottom: double;
+    color: #4d243d; 
+    font-family:"mansalva", cursive;
+    font-size: 4em;
+    position: relative;
+    
+}
+.no-underline {
+    text-decoration: none;
+}
+nav {
+    text-align: center;
+    background-color:#ECDCC9;
+    margin-bottom: 23px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border: double;
+        box-shadow: 0 12px 27px rgba(68, 25, 51, 0.09), 0 6px 9px rgba(33, 9, 24, 0.49);
+
+
+}
+.nav {
+    border-left: solid;
+    border-right: solid;
+    border-width: thin;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-color: black;
+}
+table, th, td {
+    padding: 4px;
+    border: solid;
+    border-color: black;
+    border-width: thin;
+    text-align: center;
+    background-color:#ECDCC9;
+     height: 30px;
+}
+th {
+    background-color: #d0a98f;
+    color:#4d243d;
+}
+table {
+    background-color:#d0a98f;
+    margin: auto; 
+    margin-top: 40px;
+    max-width: 700px;
+}
+main {
+display: grid;
+grid-template-columns: 2fr 1fr;
+grid-gap: 9px;
+padding: 34px;
+}
+aside {
+    border:double;
+    border-color: black;
+    padding: 10px;
+    padding-left: 23px;
+    padding-right: 25px;
+    margin-right: 50px;
+    background-color: #d0a98f;
+    max-width: 300px;
+    text-align: justify;
+    box-shadow: 0 12px 27px rgba(68, 25, 51, 0.51), 0 6px 9px rgba(14, 3, 10, 0.56);       
+}
+.contact {
+    margin-top: -7px;
+}
+footer {
+    font-size: 12px;
+    padding-top: 5px;
+    position: relative;
+    top: 150px;
+    text-align: right;
+    border-top:double;
+    font-family: "Times New Roman", Serif;
+}
+a {
+    color:#4d243d;
+}
+a:hover {
+    color:#9a2f6f;
+}
