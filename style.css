@@ -32,15 +32,37 @@ header {
     margin-top: 50px;
 }
 .book-cover-large {
-    height: 400px;
+    height: 350px;
     float: right;
     margin-left: 34px;
-    margin-right: 134px;
+    margin-right: 175px;
     margin-top: 34px;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
     border: double;
     background-color:#ECDCC9;
     padding: 5px;
+}
+#ink-1 {
+    width: 400px;
+    position:absolute;
+    top: 179px;
+    left: -24px;
+    z-index: -10;
+}
+#ink-2 {
+    width: 375px;
+    position: absolute;
+     top: 824px;
+    right: 1px;
+    z-index: -10;
+}
+#ink-3 {
+    width: 213px;
+    position: absolute;
+     top: -41px;
+    right: 119px;
+    z-index: -10;
+    transform: rotate(160deg)
 }
 a:hover .book-cover {
     border: double;
@@ -55,7 +77,6 @@ a:hover .book-cover {
     font-style:italic;
 }
 .journal-headers {
-    border-top: double;
     padding-top: 38px;
     color:#4d243d;
     text-align: center;
@@ -65,13 +86,16 @@ a:hover .book-cover {
     border-left: solid;
     border-right: solid;
     border-bottom: solid;
+    border-top: double;
     border-bottom-width: 1px;
     border-left-width: 1px;
     border-right-width: 1px;
     padding-bottom: 25px;
     margin-bottom: 60px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-left: 15px;
+    padding-right: 15px;
     box-shadow: 0 12px 27px rgba(68, 25, 51, 0.51), 0 6px 9px rgba(14, 3, 10, 0.56);
 }
 #resources-background {
