@@ -103,6 +103,7 @@ a:hover .book-cover {
     border-left: solid;
     border-right: solid;
     border-bottom: solid;
+    border-top: double;
     border-bottom-width: 1px;
     border-left-width: 1px;
     border-right-width: 1px;
@@ -203,6 +204,10 @@ table, th, td {
 th {
     background-color: #d0a98f;
     color:#4d243d;
+}
+td:hover {
+    background-color:#4d243d;
+    color:#ECDCC9
 }
 table {
     background-color:#d0a98f;
